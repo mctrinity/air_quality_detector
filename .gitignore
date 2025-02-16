@@ -1,0 +1,45 @@
+# Ignore Python files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore environment and dependency files
+venv/
+env/
+.env
+*.egg-info/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore database and compiled files
+*.sqlite3
+*.db
+*.pkl
+
+# Ignore Docker files
+*.dockerignore
+docker-compose.override.yml
+
+# Ignore Node.js files (for frontend)
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Ignore build and cache files
+/build/
+/.next/
+/.cache/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore coverage and test files
+coverage/
+*.coverage
+junit.xml
