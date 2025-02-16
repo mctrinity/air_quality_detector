@@ -71,3 +71,4 @@ def get_air_quality(lat: float, lon: float):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
